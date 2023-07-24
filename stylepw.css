@@ -8,22 +8,31 @@ h1,h2,nav {
     font-size: 40px ;
     font-family: nice honey, 'Trebuchet MS', sans-serif;
 }
+/*h1 h2 and nav are grouped together for allignment in center*/
+/*Place the div in their own folders to customize along the days*/
+
+/*div1 and div2 are separated for customizing differences*/
+
 .div1 {
     font-size: 20px;
     font-family: nice honey, 'Trebuchet MS', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
     border: 10px solid #ca704c;
-    margin: 20px;
-    padding: 20px;
-    
+    float: right;
     }
-.div2 {
+
+    .div2 {
     font-size: 20px;
     font-family: nice honey, 'Trebuchet MS', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
     border: 10px solid #aa5737;
-    margin: 20px;
-    padding: 20px;
+    float: left;;
+    }
 
-}
 .center {
     display: block;
     margin-left: auto;

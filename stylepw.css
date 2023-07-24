@@ -3,12 +3,16 @@ body {
     background-image: url('https://codetheweb.blog/assets/img/posts/css-advanced-background-images/mountains.jpg');
     background-size: cover;
     }
-h1,h2,nav {
+h1,h2,h3,nav {
     text-align: center;
     font-size: 40px ;
     font-family: nice honey, 'Trebuchet MS', sans-serif;
 }
-/*h1 h2 and nav are grouped together for allignment in center*/
+p {
+    font-size: 25px;
+    font-family: nice honey, 'Trebuchet MS', sans-serif;
+}
+/*h1 h2 h3 and nav are grouped together for allignment in center*/
 /*Place the div in their own folders to customize along the days*/
 
 /*div1 and div2 are separated for customizing differences*/

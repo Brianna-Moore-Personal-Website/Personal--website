@@ -2,5 +2,13 @@
 
 My Personal Website
 
-// three HTML files
+Three HTML files
+
 // Home page, About me, and Portfolio page
+
+Styling CSS
+//external file
+//some styling for each header
+
+Javascript External File
+//console.log hello World

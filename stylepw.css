@@ -1,7 +1,7 @@
 body {
 
-    height: 100vh;
-    width: 100vw;
+    height: auto;
+    width: auto;
     background-color: #f0fff0;
     background-size: cover;
     }
@@ -9,14 +9,14 @@ body {
 @media (min-width: 1024px) and (max-width: 1680px) {
     html { font-size: 16px;}
 }
+@media (max-width: 750px) {
+    font-size: ;
+}
 @media (max-width: 480px) {
     html {
         font-size: 32px;
     }
 }
-@media (max-width: 750px) {}
-
-
 h1, h2, h3, nav {
     text-align: center;
     font-size: 40px ;
@@ -30,6 +30,9 @@ p {
 /*Place the div in their own folders to customize along the days*/
 
 /*div1 and div2 are separated for customizing differences*/
+.div1 .div2 { 
+    flex-direction: row;
+}
 
 .div1 {
     font-size: 25px;
@@ -50,7 +53,6 @@ p {
     margin-right: auto;
     width: 50%;
     border: 10px solid #725a51;
-    float: right;
     }
 
 .center, .img1 {

@@ -1,8 +1,8 @@
 # Personal--website
 My Personal Website
 
-Three HTML files
-// Home page, About me, and Portfolio page
+HTML files
+// Home page About me, Portfolio page, Contact page, and Form submitted page 
 
 Styling CSS
 //external file 
